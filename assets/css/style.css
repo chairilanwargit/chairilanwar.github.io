@@ -31,7 +31,7 @@ a {
 
 .banner::before {
   content: "";
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('./assets/img/main.jpg');
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../assets/img/main.JPG');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
