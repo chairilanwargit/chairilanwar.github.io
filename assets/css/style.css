@@ -31,7 +31,7 @@ a {
 
 .banner::before {
   content: "";
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('assets/img/bg/main.jpg');
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://github.com/chairilanwars/portfolio/blob/8eaf18a24e0b71c611ad7f95d469509390250a20/assets/img/bg/main.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
