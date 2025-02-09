@@ -31,7 +31,7 @@ a {
 
 .banner::before {
   content: "";
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('https://github.com/chairilanwars/portfolio/blob/8eaf18a24e0b71c611ad7f95d469509390250a20/assets/img/bg/main.jpg');
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("assets/img/bg/main.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -45,25 +45,25 @@ a {
 
 .et-home section:nth-child(1) {
   content: "";
-  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),  url('assets/img/bg/home.jpg');
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),  url("assets/img/bg/home.jpg");
   background-size: cover;
 }
 
 .et-home section:nth-child(2) {
   content: "";
-  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),  url('assets/img/bg/about.jpg');
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),  url("assets/img/bg/about.jpg");
   background-size: cover;
 }
 
 .et-home section:nth-child(3) {
   content: "";
-  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),  url('assets/img/bg/portfolio.jpg');
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),  url("assets/img/bg/portfolio.jpg");
   background-size: cover;
 }
 
 .et-home section:nth-child(4) {
   content: "";
-  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),  url('assets/img/bg/contact.jpg');
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),  url("assets/img/bg/contact.jpg");
   background-size: cover;
 }
 
