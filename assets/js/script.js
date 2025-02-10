@@ -74,8 +74,9 @@ class StickyNavigation {
 
 new StickyNavigation();
 
-$('button[type="submit"]').on('click', function (e) {
-    setTimeout(function () {
-      window.location.reload();
-    }, 2000);
-  });
+var typed = new Typed('.auto-type', {
+    strings: ['Designer', 'Developer', 'Freelancer'],
+    typeSpeed: 150,
+    backSpeed: 150,
+    loop: true,
+});
