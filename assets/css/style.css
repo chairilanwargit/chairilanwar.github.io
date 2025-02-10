@@ -28,8 +28,9 @@ a {
   box-sizing: border-box;
 }
 
-.logo {
+.banner img {
   height: 50px;
+  display: inline-block;
 }
 
 .banner::before {
