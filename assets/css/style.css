@@ -67,7 +67,7 @@ a {
 
 .et-home section:nth-child(4) {
   content: "";
-  background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),  url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/contact.jpg?raw=true");
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),  url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/contact.jpg?raw=true");
   background-size: cover;
 }
 
