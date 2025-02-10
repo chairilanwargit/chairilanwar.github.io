@@ -28,6 +28,11 @@ a {
   box-sizing: border-box;
 }
 
+.logo {
+  weight: 50px;
+  display: inline-block;
+}
+
 .banner::before {
   content: "";
   background: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),  url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/main.jpg?raw=true");
