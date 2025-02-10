@@ -73,3 +73,9 @@ class StickyNavigation {
 }
 
 new StickyNavigation();
+
+$('button[type="submit"]').on('click', function (e) {
+    setTimeout(function () {
+      window.location.reload();
+    }, 2000);
+  });
