@@ -84,7 +84,7 @@ var typed = new Typed('.auto-type', {
 let mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 85 || document.documentElement.scrollTop > 85) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
