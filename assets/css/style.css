@@ -18,7 +18,10 @@ section {
 
 body {
   font-family: "Century Gothic", 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
   height: 100%;
+  width: 100%;
 }
 
 a {
@@ -33,7 +36,7 @@ a {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
+  bottom: 30px;
   right: 30px;
   z-index: 99;
   border: none;
@@ -52,12 +55,31 @@ a {
 
 .banner img {
   height: 50px;
-  display: inline-block
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.banner h1 {
+  font-size: 1.9rem;
+  margin: 2;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  opacity: 0.8;
+  color: var(--black);
+}
+
+.banner h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  opacity: 0.8;
+  text-align: center;
+  color: var(--black);
 }
 
 .banner::before {
   content: "";
-  background: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),  url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/01.jpg?raw=true");
+  background: linear-gradient(rgba(255,255,255,0.2), rgba(225,225,225,0.2)), url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/01.jpg?raw=true");
+  background-color: var(--white);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -66,31 +88,6 @@ a {
   left: 0;
   bottom: 0;
   right: 0;
-  opacity: 0.35;
-}
-
-.et-home section:nth-child(1) {
-  content: "";
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),  url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/02.jpg?raw=true");
-  background-size: cover;
-}
-
-.et-home section:nth-child(2) {
-  content: "";
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),  url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/03.jpg?raw=true");
-  background-size: cover;
-}
-
-.et-home section:nth-child(3) {
-  content: "";
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),  url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/04.jpg?raw=true");
-  background-size: cover;
-}
-
-.et-home section:nth-child(4) {
-  content: "";
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),  url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/05.jpg?raw=true");
-  background-size: cover;
 }
 
 #tab-home::before url {
@@ -110,24 +107,24 @@ a {
   height: 100vh;
   position: relative;
   text-align: center;
-  background: var(--white);
+  background: var(--black);
   padding: 0 2em;
 }
 
-.et-hero-tabs h1,
 .et-slide h1 {
   font-size: 1.9rem;
   margin: 2;
   letter-spacing: 0.5rem;
   text-align: center;
+  color: var(--white);
 }
 
-.et-hero-tabs h3,
 .et-slide h3 {
   font-size: 1rem;
   letter-spacing: 0.3rem;
   opacity: 0.6;
   text-align: center;
+  color: var(--white);
 }
 
 .et-hero-tabs-container {
@@ -138,7 +135,7 @@ a {
   width: 100%;
   height: 70px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background: var(--white);
+  background: var(--black);
   z-index: 10;
 }
 .et-hero-tabs-container--top {
@@ -151,7 +148,7 @@ a {
   justify-content: center;
   align-items: center;
   flex: 1;
-  color: var(--black);
+  color: var(--white);
   letter-spacing: 0.1rem;
   transition: all 0.5s ease;
   font-size: 0.8rem;
@@ -179,7 +176,7 @@ a {
   }
   .et-hero-tabs h3,
   .et-slide h3 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .et-hero-tab {
