@@ -76,8 +76,8 @@ new StickyNavigation();
 
 var typed = new Typed('.auto-type', {
     strings: ['Designer', 'Developer', 'Freelancer'],
-    typeSpeed: 150,
-    backSpeed: 150,
+    typeSpeed: 130,
+    backSpeed: 130,
     loop: true,
 });
 
