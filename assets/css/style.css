@@ -185,32 +185,40 @@ a {
   }
 }
 
-.et-slide:nth-child(1) {
+.et-home section:nth-child(1) {
   content: "";
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/02.jpg?raw=true");
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.et-slide:nth-child(2) {
+.et-home section:nth-child(2) {
   content: "";
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/03.jpg?raw=true");
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.et-slide:nth-child(3) {
+.et-home section:nth-child(3) {
   content: "";
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/04.jpg?raw=true");
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.et-slide:nth-child(4) {
+.et-home section:nth-child(4) {
   content: "";
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/05.jpg?raw=true");
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .contact-container {
