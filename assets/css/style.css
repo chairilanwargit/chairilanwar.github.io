@@ -187,45 +187,29 @@ a {
 
 .et-slide:nth-child(1) {
   content: "";
-  position: fixed;
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/02.jpg?raw=true");
-  background-color: var(--white);
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   background-attachment: fixed;
 }
 
 .et-slide:nth-child(2) {
   content: "";
-  position: fixed;
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/03.jpg?raw=true");
-  background-color: var(--white);
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   background-attachment: fixed;
 }
 
 .et-slide:nth-child(3) {
   content: "";
-  position: fixed;
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/04.jpg?raw=true");
-  background-color: var(--white);
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   background-attachment: fixed;
 }
 
 .et-slide:nth-child(4) {
   content: "";
-  position: fixed;
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/05.jpg?raw=true");
-  background-color: var(--white);
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   background-attachment: fixed;
 }
 
