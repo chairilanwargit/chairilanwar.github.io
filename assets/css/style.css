@@ -83,6 +83,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   position: absolute;
   top: 0;
   left: 0;
@@ -165,7 +166,7 @@ a {
   bottom: 0;
   width: 0;
   height: 6px;
-  background: var(--white);
+  background: var(--pickled-bluewood);
   transition: left 0.3s ease;
 }
 
@@ -184,9 +185,49 @@ a {
   }
 }
 
+.et-slide:nth-child(1) {
+  content: "";
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/02.jpg?raw=true");
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.et-slide:nth-child(2) {
+  content: "";
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/03.jpg?raw=true");
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.et-slide:nth-child(3) {
+  content: "";
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/04.jpg?raw=true");
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.et-slide:nth-child(4) {
+  content: "";
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://github.com/chairil-anwar/portfolio/blob/main/assets/img/bg/05.jpg?raw=true");
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .contact-container {
-  height: 100vh;
-  display: flex;
+  height: block;
+  display: block;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -238,7 +279,7 @@ a {
 }
 
 .contact-left button {
-  display: auto;
+  display: block;
   align-items: center;
   padding: 15px 30px;
   font-size: 16px;
@@ -262,19 +303,20 @@ a {
 }
 
 .footer {
+  display: block;
+  width: auto;
   background-color: var(--white);
-  padding: 30px 0;
-  margin-top: 0;
+  padding: 20px;
   text-align: center;
   align-items: center;
-  padding-top: 20px;
 }
 
 .footer .bi {
-  display: inline-block;
+  display: inline-flex;
+  padding: 10px;
+  padding-bottom: 20px;
   color: var(--dusky-blue);
   font-size: 20px;
-  margin: 0 10px;
   transition: color 0.3s ease;
 }
 
@@ -284,5 +326,9 @@ a {
 
 .footer h3 {
   font-size: 10px;
-  margin-top: 20px;
+  padding-top: 5px;
+}
+
+@media (max-width: 800px) {
+  
 }
