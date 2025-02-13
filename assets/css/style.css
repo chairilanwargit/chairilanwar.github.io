@@ -165,7 +165,7 @@ a {
   bottom: 0;
   width: 0;
   height: 6px;
-  background: var(--pickled-bluewood);
+  background: var(--white);
   transition: left 0.3s ease;
 }
 
