@@ -220,7 +220,7 @@ a {
 }
 
 .contact-container {
-  height: block;
+  height: auto;
   display: block;
   align-items: center;
   justify-content: space-evenly;
