@@ -82,7 +82,6 @@ a {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  image-rendering: auto;
   position: absolute;
   min-height: 500px;
   top: 0;
@@ -192,7 +191,6 @@ a {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: auto;
   min-height: 500px;
 }
 
@@ -203,7 +201,6 @@ a {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: auto;
   min-height: 500px;
 }
 
@@ -214,7 +211,6 @@ a {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: auto;
   min-height: 500px;
 }
 
@@ -225,7 +221,6 @@ a {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: auto;
   min-height: 500px;
 }
 
