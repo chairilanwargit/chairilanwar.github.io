@@ -212,7 +212,7 @@ a {
 
 .et-home section:nth-child(4) {
   content: "";
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("/assets/img/bg/05.jpg");
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("./assets/img/bg/05.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
