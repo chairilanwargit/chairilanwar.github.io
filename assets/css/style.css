@@ -84,6 +84,7 @@ a {
   background-attachment: fixed;
   image-rendering: auto;
   position: absolute;
+  min-height: 500px;
   top: 0;
   left: 0;
   bottom: 0;
@@ -192,6 +193,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   image-rendering: auto;
+  min-height: 500px;
 }
 
 .et-home section:nth-child(2) {
@@ -202,6 +204,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   image-rendering: auto;
+  min-height: 500px;
 }
 
 .et-home section:nth-child(3) {
@@ -212,6 +215,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   image-rendering: auto;
+  min-height: 500px;
 }
 
 .et-home section:nth-child(4) {
@@ -222,6 +226,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   image-rendering: auto;
+  min-height: 500px;
 }
 
 .contact-container {
