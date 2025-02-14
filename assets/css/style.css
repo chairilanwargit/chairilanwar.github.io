@@ -8,8 +8,11 @@
   --mineral-green: #356153;
 }
 
-main {
+main,
+html {
   position: relative;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 section {
@@ -26,11 +29,6 @@ body {
 
 a {
   text-decoration: none;
-}
-
-* {
-  margin: 0;
-  box-sizing: border-box;
 }
 
 #myBtn {
